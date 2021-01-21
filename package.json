@@ -1,0 +1,23 @@
+{
+  "name": "@tammle93/rollup-plugin-html-template",
+  "version": "1.0.0",
+  "description": "Allow using html file as a template for injecting chunks and assets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemt93/rollup-plugin-html-template.git"
+  },
+  "author": "Tam Minh Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemt93/rollup-plugin-html-template/issues"
+  },
+  "homepage": "https://github.com/lemt93/rollup-plugin-html-template#readme",
+  "exports": {
+    ".": "./index.js"
+  }
+}
