@@ -1,6 +1,6 @@
 {
   "name": "@tammle93/rollup-plugin-html-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allow using html file as a template for injecting chunks and assets",
   "main": "index.js",
   "type": "module",
