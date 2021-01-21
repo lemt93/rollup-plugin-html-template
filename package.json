@@ -2,8 +2,11 @@
   "name": "@tammle93/rollup-plugin-html-template",
   "version": "1.0.3",
   "description": "Allow using html file as a template for injecting chunks and assets",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
   "scripts": {
+    "build": "node rollup.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +19,7 @@
     "url": "https://github.com/lemt93/rollup-plugin-html-template/issues"
   },
   "homepage": "https://github.com/lemt93/rollup-plugin-html-template#readme",
-  "exports": {
-    ".": "./index.js"
+  "devDependencies": {
+    "rollup": "^2.37.1"
   }
 }
